@@ -34,9 +34,7 @@ This repository contains my personal learning journey of **Spring Security**. It
 ## ✅ Purpose
 
 - Practice Spring Security hands-on
-- Build strong backend fundamentals
-- Maintain daily GitHub contributions ✅
-- Prepare for job interviews
+- Build strong backend fundamentals with projects
 
 ---
 
