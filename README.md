@@ -1,6 +1,6 @@
 # Spring Security Learning Repo
 
-This repository contains my personal learning journey of **Spring Security**, based on the Telusko YouTube series. It includes code examples, config files, and notes from each topic I’ve covered.
+This repository contains my personal learning journey of **Spring Security**. It includes code, config files, and notes from each topic I’ve covered.
 
 ---
 
@@ -19,18 +19,6 @@ This repository contains my personal learning journey of **Spring Security**, ba
 
 ---
 
-## 🗂 Folder Structure
-
-Spring-Security/
-├── src/
-├── notes/
-│ ├── csrf-token.md
-│ ├── jwt-auth.md
-├── Daily_Learning_Log.txt
-├── README.md
-
----
-
 ## 🛠 Tech Stack
 
 - Java
@@ -38,14 +26,8 @@ Spring-Security/
 - Spring Security
 - Maven
 - IntelliJ IDEA
+- PostgreSQL
 - Git & GitHub
-
----
-
-## 🗓️ Learning Source
-
-This learning is based on the **Spring Security series by Telusko**:  
-🔗 [YouTube Playlist](https://www.youtube.com/playlist?list=PLsyeobzWxl7r2ukLhWB6kD4i0JxW5Rzq6)
 
 ---
 
