@@ -60,7 +60,7 @@ src/
 │   │       ├── MyUserDetailsService.java  # Custom UserDetailsService
 │   │       └── UserService.java           # User business logic
 │   └── resources/
-│       ├── application.properties         # Application configuration (not in git)
+│       ├── application.properties         # Application configuration (gitignored)
 │       └── application.properties.example # Configuration template
 └── test/
     └── java/com/telusko/SpringSecEx/
@@ -147,10 +147,10 @@ The application will start on `http://localhost:8080`.
 |----------|-------------|---------|
 | `spring.application.name` | Application name | SpringSecEx |
 | `spring.datasource.url` | PostgreSQL connection URL | jdbc:postgresql://localhost:5432/telusko1 |
-| `spring.datasource.username` | Database username | - |
-| `spring.datasource.password` | Database password | - |
-| `spring.security.user.name` | Default admin username | - |
-| `spring.security.user.password` | Default admin password | - |
+| `spring.datasource.username` | Database username | See application.properties.example |
+| `spring.datasource.password` | Database password | See application.properties.example |
+| `spring.security.user.name` | Default admin username | See application.properties.example |
+| `spring.security.user.password` | Default admin password | See application.properties.example |
 
 ---
 
