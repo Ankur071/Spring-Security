@@ -1,0 +1,8 @@
+spring.application.name=SpringSecEx
+
+spring.security.user.name=your_username
+spring.security.user.password=your_password
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/your_database
+spring.datasource.username=your_db_username
+spring.datasource.password=your_db_password

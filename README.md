@@ -60,7 +60,8 @@ src/
 │   │       ├── MyUserDetailsService.java  # Custom UserDetailsService
 │   │       └── UserService.java           # User business logic
 │   └── resources/
-│       └── application.properties         # Application configuration
+│       ├── application.properties         # Application configuration (gitignored)
+│       └── application.properties.example # Configuration template
 └── test/
     └── java/com/telusko/SpringSecEx/
         └── SpringSecExApplicationTests.java
@@ -98,13 +99,21 @@ CREATE DATABASE telusko1;
 
 ### 3. Configure Application Properties
 
-Update `src/main/resources/application.properties` with your database credentials:
+Copy the example configuration file and update with your credentials:
+
+```bash
+cp src/main/resources/application.properties.example src/main/resources/application.properties
+```
+
+Then edit `src/main/resources/application.properties` with your database credentials:
 
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/telusko1
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 ```
+
+> **Note:** The `application.properties` file is not tracked in git to protect sensitive credentials.
 
 ### 4. Build the Project
 
@@ -138,10 +147,10 @@ The application will start on `http://localhost:8080`.
 |----------|-------------|---------|
 | `spring.application.name` | Application name | SpringSecEx |
 | `spring.datasource.url` | PostgreSQL connection URL | jdbc:postgresql://localhost:5432/telusko1 |
-| `spring.datasource.username` | Database username | postgres |
-| `spring.datasource.password` | Database password | - |
-| `spring.security.user.name` | Default admin username | ankur |
-| `spring.security.user.password` | Default admin password | telusko |
+| `spring.datasource.username` | Database username | See application.properties.example |
+| `spring.datasource.password` | Database password | See application.properties.example |
+| `spring.security.user.name` | Default admin username | See application.properties.example |
+| `spring.security.user.password` | Default admin password | See application.properties.example |
 
 ---
 
